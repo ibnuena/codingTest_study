@@ -17,11 +17,8 @@ class Solution1220 {
 			int n = sc.nextInt();
 			int answer = 0;
 			boolean flag = false;
-			boolean isN = false;
-			boolean zero = false;
-			boolean set = false;
-			Stack<Integer>[] stack = new Stack[100];
 			
+			Stack<Integer>[] stack = new Stack[100];
 
 			for (int i = 0; i < n; i++) {
 				stack[i] = new Stack<>();
@@ -43,13 +40,10 @@ class Solution1220 {
 						answer++;
 						flag = false;
 					}
-
 					stack[i].pop();
-
 				}
 			}
 			
-
 			System.out.println("#" + test_case + " " + answer);
 
 		}
