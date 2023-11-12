@@ -20,7 +20,7 @@ class Solution1217
 			int n2 = sc.nextInt();
 			
 			System.out.println("#" + test_case + " " + pow(n1, n2));
-		}
+		} 
 	}
 	
 	public static int pow(int a, int b) {
